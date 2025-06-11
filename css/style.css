@@ -21,8 +21,6 @@ h2 {
 }
 
 
-
-
 /* .logo-studio img{
   display: flex;
   position: relative;
@@ -46,17 +44,27 @@ h2 {
 
 
   /* ------------Nav ↑ -------------------- */
-
+  footer h4 {
+    margin-top: 5px;
+    background-color: #222831;
+    height: 57px;
+    color: #948979;
+    text-align: center;
+    font-size: 32px;
+  }
+  /* --------------Footer ↑ ---------------- */
   .section {
     display: flex;
     justify-content: space-around;
   }
+  /* ----------Selection ↑ ------------ */
   .tatoueur {
     background-color: #DFD0B8;
     border-radius: 50px;
     width: 587px;
     height: 782px;
     margin-left: 57px;
+    margin-top: 30px;
   }
   .tatoueur img {
     margin-left: 90px;
@@ -103,6 +111,7 @@ h2 {
     width: 587px;
     height: 782px;
     margin-left: 57px;
+      margin-top: 30px;
   }
   .salon img {
     margin-left: 90px;
@@ -125,11 +134,3 @@ h2 {
   }
 
 
-  footer h4 {
-    margin-top: 5px;
-    background-color: #222831;
-    height: 57px;
-    color: #948979;
-    text-align: center;
-    font-size: 32px;
-  }
