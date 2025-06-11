@@ -1,25 +1,23 @@
 h1 {
   color: #D0B8A0;
   font-size: 40px;
-  text-align: center;
   margin-top: 13px;
-  ;
+
 }
 
 h2 {
-    color: #DFD0B8;
+  color: #DFD0B8;
   font-size: 36px;
-  text-align: center;
-  margin-top: 3%;
+  margin-top: -2%;
 }
 
 .bg-header {
   background-color: #222831;
   height: 112px;
   display: flex;
-  flex-direction: row;
-  column-gap: 5px;
-  
+  flex-direction: column;
+  align-items: center;
+
 }
 
 
@@ -31,3 +29,107 @@ h2 {
   z-index: 10; 
 } */
   /* <-- ------Header ↑--------------- --> */
+
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color: #393E46;
+    padding: 5px;
+  }
+
+  nav li a{
+    font-size: 36px;
+    color: #DFD0B8;
+     text-decoration: none;
+  }
+
+
+  /* ------------Nav ↑ -------------------- */
+
+  .section {
+    display: flex;
+    justify-content: space-around;
+  }
+  .tatoueur {
+    background-color: #DFD0B8;
+    border-radius: 50px;
+    width: 587px;
+    height: 782px;
+    margin-left: 57px;
+  }
+  .tatoueur img {
+    margin-left: 90px;
+    margin-top: 50px;
+  }
+  .tatoueur p {
+    font-size: 40px;
+    width: 557;
+    color: #222831;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .tatoueur h3 {
+    font-size: 40px;
+    margin-left: 30px;
+  
+  }
+
+  .reseaux {
+    margin-top: -10%;
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+
+   
+  }
+  .reseaux img {
+    width: 64px;
+    height: 64px;
+  }
+
+  .reseaux ul {
+    display: flex;
+    width: 225px;
+    list-style: none;
+  }
+
+
+  /* -------------Section tatoueur ↑---------- */
+
+ .salon {
+    background-color: #DFD0B8;
+    border-radius: 50px;
+    width: 587px;
+    height: 782px;
+    margin-left: 57px;
+  }
+  .salon img {
+    margin-left: 90px;
+    margin-top: 50px;
+    width: 409px;
+    height: 260px;
+  }
+  .salon p {
+    font-size: 40px;
+    width: 557;
+    color: #222831;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  /* ------------ Section Salon ↑ ------------- */
+
+  main {
+    background-color: #222831;
+  }
+
+
+  footer h4 {
+    margin-top: 5px;
+    background-color: #222831;
+    height: 57px;
+    color: #948979;
+    text-align: center;
+    font-size: 32px;
+  }
